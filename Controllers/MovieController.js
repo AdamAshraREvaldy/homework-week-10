@@ -23,7 +23,7 @@ class MovieController {
       });
     }
 
-    const movieId = req.query.index; // Sesuaikan dengan cara Anda mendapatkan ID film yang sesuai
+    const movieId = req.query.index; 
     const photoPath = 'upload/' + file.filename;
 
     MovieRepository.updateMoviePhoto(movieId, photoPath, (error) => {
@@ -61,7 +61,7 @@ class MovieController {
   }
 
   static updateMoviePhoto(req, res) {
-    const movieId = req.params.id; // Mengambil ID film dari parameter URL
+    const movieId = req.params.id; 
   const file = req.file;
 
   if (!file) {

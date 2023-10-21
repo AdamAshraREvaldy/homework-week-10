@@ -1,5 +1,5 @@
 // repositories/MovieRepository.js
-const pool = require('../queries'); // Sesuaikan dengan file yang mengelola koneksi ke database
+const pool = require('../queries'); 
 const Movie = require('../models/Movie');
 
 class MovieRepository {

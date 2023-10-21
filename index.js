@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const multer = require('multer'); // Tambahkan baris ini
+const multer = require('multer');
 
 const MovieController = require('./Controllers/MovieController');
 const path = require('path');
